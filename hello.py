@@ -11,4 +11,4 @@ def add(x_var, y_var):
 
 # VAR=
 RESULT = add(1, 2)
-print(f"This is the sum: 1, 2, {RESULT}")
+print("This is the sum: 1, 2, %s" % RESULT)
